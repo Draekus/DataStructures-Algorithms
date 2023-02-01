@@ -36,7 +36,7 @@ public class Factorial {
     }
 
     // Factorial function 
-    public static BigInteger factorial(long n) {
+    public static BigInteger factorial(int n) {
         // Create a BigInteger value for 1
         BigInteger one = BigInteger.ONE;
         // Cast n to a BigInteger

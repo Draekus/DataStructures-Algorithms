@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PriorityQueueDemo",
+            "request": "launch",
+            "mainClass": "HW4.PriorityQueueDemo",
+            "projectName": "DataStructures-Algorithms_3e268f45"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "DataStructures-Algorithms_3e268f45"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "HW2.Main",
+            "projectName": "DataStructures-Algorithms_3e268f45"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "HW3.Main",
+            "projectName": "DataStructures-Algorithms_3e268f45"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "args": [
+                "./HW3/Gettysburg.txt"
+            ],
+            "mainClass": "HW3.Test",
+            "projectName": "DataStructures-Algorithms_3e268f45"
+        }
+    ]
+}

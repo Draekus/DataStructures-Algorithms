@@ -14,7 +14,7 @@ import java.util.*;
 public class PriorityQueueDemo {
     public static void main(String[] args) {
 
-        // Create a priority stack called queue
+        // Create a priority queue called queue
         PriorityQueue<String> queue = new PriorityQueue<String>();
         // Add names to the queue
         queue.offer("Patrick");
@@ -24,7 +24,7 @@ public class PriorityQueueDemo {
         queue.offer("Reginald");
         queue.offer("James");
 
-        // Create a priority stack called queue2
+        // Create a priority queue called queue2
         PriorityQueue<String> queue2 = new PriorityQueue<String>();
         // Add names to the queue
         queue2.offer("Tammy");
@@ -44,6 +44,7 @@ public class PriorityQueueDemo {
         PriorityQueue<String> difference = difference(queue, queue2);
         PriorityQueue<String> intersection = intersection(queue, queue2);
         
+        // Print the result of union, difference, and intersection to the console
         System.out.println("Union: " + union);
         System.out.println("Difference:" + difference);
         System.out.println("Intersection: " + intersection);

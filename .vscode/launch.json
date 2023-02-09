@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Trees",
+            "request": "launch",
+            "mainClass": "HW5.Trees",
+            "projectName": "DataStructures-Algorithms_3e268f45",
+            "args": "/workspaces/DataStructures-Algorithms/HW3/Gettysburg.txt"
+        },
+        {
+            "type": "java",
             "name": "Launch PriorityQueueDemo",
             "request": "launch",
             "mainClass": "HW4.PriorityQueueDemo",
